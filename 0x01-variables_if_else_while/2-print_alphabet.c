@@ -1,18 +1,17 @@
 #include <stdio.h>
 
 /**
- * main - Print the alphabets
+ * main - Print the alphabets in lower case
  *
  * Return: 0 alway
  */
 int main(void)
 {
-char alp[26] = "abcdefghijklmnopqrstuvwxyz";
-int i;
-for (i = 0, i < 26; i++)
+char i;
+for (i = a, i = < z; i++);
 {
-	putchar(alp[1])
-}
+	putchar(i)
+}	
 putchar('\n');
 return (0);
-}
+
