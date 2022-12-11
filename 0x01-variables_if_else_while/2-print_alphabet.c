@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <stdlib.h>
+#include <unistd.h>
 /**
  * main - Entry point
  * Description - Print alphabets in lower case followed by a new line
@@ -7,9 +7,9 @@
  */
 int main(void)
 {
-	int ch;
+	int i;
 
-	for (ch = 'a'; ch <= 'z'; ch++)
+	for (i = 'a'; i <= 'z'; i++)
 	{
 		putchar(ch);
 	}
