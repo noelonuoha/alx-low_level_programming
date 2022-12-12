@@ -1,2 +1,2 @@
 #!/bin/bssh
-gcc -S -o $CFILE.s
+gcc -S -masm=intel $CFILEs
