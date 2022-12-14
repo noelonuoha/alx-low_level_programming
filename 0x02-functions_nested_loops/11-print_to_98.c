@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include "main.h"
 /**
  * print_to_98 - Write a function that prints all natural numbers from n to 98
  * @n: the first natural number
